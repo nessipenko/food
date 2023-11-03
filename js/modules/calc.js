@@ -34,7 +34,7 @@ function calc() {
 
     function calcTotal() {
         if (!sex || !height || !weight || !age || !ratio) {
-            result.textContent = 'Error';
+            result.textContent = 'Введите данные';
             return;
         }
 
